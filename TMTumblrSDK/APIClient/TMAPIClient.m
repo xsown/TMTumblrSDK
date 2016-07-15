@@ -509,7 +509,7 @@ NSString *fullBlogName(NSString *blogName) {
 }
 
 NSString *URLWithPath(NSString *path) {
-    return [@"http://api.tumblr.com/v2/" stringByAppendingString:path];
+    return [@"https://api.tumblr.com/v2/" stringByAppendingString:path];
 }
 
 #pragma mark - NSObject
